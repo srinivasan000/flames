@@ -1,4 +1,2 @@
 # flames
-Flames game
-
-Php script
+Flames games
