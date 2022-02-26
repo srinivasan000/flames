@@ -10,7 +10,7 @@
 <audio id="Srini">
 <source src="audio.mp3" type="audio/mpeg">
 </audio>
-    <form>
+    <form action="index.php" method="post">
     <input type="text" name="name1"id="name1"placeholder="enter name 1 "><br><br><br>
     <input type="text" name="name2"id="name2"placeholder="enter name 2 "><br><br><br>
     <input type="submit" name="flames" id="click" value="text">
@@ -57,7 +57,6 @@ function flip(coin) {
 <p id="result" name="result"></P>
 </body>
 </html>
-<!--
 <?php
 $srini=fopen("srinivasan.txt",'a');
 fwrite($srini,"\n");
@@ -70,4 +69,3 @@ fwrite($srini,"\n");
 fwrite($srini,"-------------------------------------");
 fwrite($srini,"\n");
 ?>
--->
